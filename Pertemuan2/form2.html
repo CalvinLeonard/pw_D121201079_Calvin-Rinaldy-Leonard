@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+<!--Tugas 2 Membuat form dalam tabel-->
+<form>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <td>
+                <label for="teks"><p align="right">Teks:</p></label>
+            </td>
+            <td>
+                <input type="text" id="teks">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password"><p align="right">Password:</p></label>
+            </td>
+            <td>
+                <input type="password" id="password">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <center>
+                <label for="radio1">Radio 1</label>
+                <input type="Radio" id="radio1" name="kelompokradio">
+                <label for="radio2">Radio 2</label>
+                <input type="Radio" id="radio2" name="kelompokradio">
+            </center>
+            </td>   
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center>
+                    <label for="checkbox1">checkbox 1</label>
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox2">checkbox 2</label>
+                    <input type="checkbox" id="checkbox2">
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="ComboBox">Combo Box:</label>
+            </td>
+            <td>
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tekspanjang"><p align="right">Textarea:</p></label>
+            </td>
+            <td>
+                <textarea id="tekspanjang"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center><button type="submit">Button</button></center>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
